@@ -1,6 +1,7 @@
-$(document).ready(function(){
-	// NavON
 
+
+// NavON
+$(document).ready(function(){
 	var menuButton = $('.mobtab-button');
 
 	$('button').click(function(){
@@ -84,7 +85,7 @@ $(document).ready(function(){
 
 	}
 
-    moveAllShapes();
+        moveAllShapes();
    	rotateShapeR();
    	rotateShapeL();
    	rotateShape360();
@@ -155,7 +156,7 @@ $(document).ready(function(){
 		if(tsc > iconicSec.eq(2).offset().top-400){
 			iconicSec.eq(2).css('opacity','1');
 			iconicSec.eq(2).addClass('slideRight');
-			shape.children().css('stroke','#796eb6');
+			shape.children().css('stroke','#001b64');
 		}else{
 			iconicSec.eq(2).css('opacity','0');
 			iconicSec.eq(2).removeClass('slideRight');
@@ -203,10 +204,7 @@ $(document).ready(function(){
 		}else{
 			fragrances.removeClass('visible');
 		}
-
 	});
-
-	
 });
 
 
